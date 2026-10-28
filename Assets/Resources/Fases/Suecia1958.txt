@@ -1,0 +1,50 @@
+// ============================================================================
+// MAPA DA FASE 1 - SUÉCIA 1958 (O INÍCIO DA LENDA) - edite à vontade!
+// A 1a linha do mapa é o TOPO. Linhas com // são ignoradas; linhas com @ são dados.
+// Depois de editar, rode os testes (Window > General > Test Runner): o teste
+// "TestesMapaDaFase" confere se todos os pulos continuam possíveis.
+//
+//  .  vazio (céu)                  #  cais de pedra        D  doca de madeira
+//  R  rua de paralelepípedo        G  gramado do estádio   =  tábua/toldo (atravessa por baixo)
+//  ~  superfície do canal          %  fundo do canal
+//  P  início do Camisa 10          K  checkpoint (bandeira)
+//  B  barco (4 tiles) que anda entre < e > na mesma linha
+//  S  sino (só a CAVADINHA toca) - baixa a ponte levadiça L (trecho numa linha)
+//  x  caixote          h  caixote com coração      O  pilha de barris (2x5, só carga máxima)
+//  c  zagueiro carrinho            s  zagueiro saltador    C  capitão (minichefe)
+//  |  portão (6 de altura, abre quando o capitão é superado)
+//  Q  quiz do estádio              A  início da arena final (a câmera trava)
+//  g  goleiro final                Y  gol (trave na linha do gol, rede para a direita)
+//  !  início de ato (o 1o é o ato 2, o 2o é o ato 3)
+//  0-9  placas com dicas (texto nas linhas @placa)
+//  l lampião   t árvore   b banco   m mastro com bandeira   k barril   r refletor do estádio
+// ============================================================================
+@nome Suécia 1958
+@placa 0 A/D ou ←/→: andar · W ou ↑: pular · SHIFT: correr
+@placa 1 X: chutar. Segure X para carregar: 3 níveis de força. Quebre o caixote!
+@placa 2 Parado, segure S ou ↓: embaixadinhas. Enchem a torcida, mas você fica parado.
+@placa 3 C: cavadinha, a bola alta. Acerte o sino com ela para baixar a ponte!
+@placa 4 Zagueiro carrinho! Pule por cima ou chute antes do contato.
+@placa 5 Z: pedalada. O próximo chute sai como SUPERCHUTE.
+@placa 6 O saltador pula nas bolas altas: chute rasteiro! No ar, X faz a bicicleta.
+@placa 7 Pilha de barris: só cai com CARGA MÁXIMA (segure X) ou com o superchute.
+@placa 8 Q: chame o companheiro. Ele faz a tabela e distrai a marcação.
+@placa 9 O capitão defende tudo... menos quando está se recuperando do ataque.
+..............................................................................!...........................................................................................................................!............................................
+.......................................................................................................................................................................................................................................................
+.......................................................................................................................................................................................................................................................
+.......................................................................................................................................................................................................................................................
+.......................................................................................................................................................................................................................................................
+.......................................................................................................................................................................................................................................................
+.......................................................................................................................................................................................................................................................
+.......................................................................................................................................................................................................................................................
+.............................................................S.....................................h...................................................................................................................................................
+.................................................................................................====............................................................................====...====...........................................................
+.......................................................................................................................................................................................................................................................
+.l.P..0..1.l.x..2...k........m...h..k...............K.3...l...............K.l.....4...l.....c..b........l.................5...l.6.......s...t.....c.....x..l..7...O....K.8...9.l......C..........l..|..k...r.K....Q...A..........................g.Y...
+##############DDDDDDDDDD...DDDDDDDDDDD<B.........>#############LLLLLLLLL#######RRRRRRRRRRRRRRRRRRRRRRRRRRRR<B..........>RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+##############~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#############~~~~~~~~~#######RRRRRRRRRRRRRRRRRRRRRRRRRRRR~~~~~~~~~~~~~RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+##############%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#############%%%%%%%%%#######RRRRRRRRRRRRRRRRRRRRRRRRRRRR%%%%%%%%%%%%%RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+##############%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#############%%%%%%%%%#######RRRRRRRRRRRRRRRRRRRRRRRRRRRR%%%%%%%%%%%%%RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+##############%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#############%%%%%%%%%#######RRRRRRRRRRRRRRRRRRRRRRRRRRRR%%%%%%%%%%%%%RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+##############%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#############%%%%%%%%%#######RRRRRRRRRRRRRRRRRRRRRRRRRRRR%%%%%%%%%%%%%RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG

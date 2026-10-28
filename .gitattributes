@@ -1,0 +1,39 @@
+# Atributos do Git para o projeto Unity, baseado no modelo Unity.gitattributes.
+# SEM Git LFS: as imagens do jogo são pequenas, então um "git clone" comum já traz
+# tudo (com LFS, quem não tem o LFS instalado receberia PNGs vazios).
+
+# Código e textos
+*.cs                    text diff=csharp
+*.py                    text diff=python
+*.ps1                   text
+*.md                    text
+*.txt                   text
+*.json                  text
+
+# Unity JSON
+*.asmdef                text eol=lf linguist-language=json
+*.asmref                text eol=lf linguist-language=json
+*.inputactions          text eol=lf linguist-language=json
+
+# Unity YAML (o Unity grava com LF em qualquer sistema)
+*.anim                  text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.asset                 text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.controller            text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.mat                   text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.meta                  text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.physicsMaterial2D     text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.prefab                text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.preset                text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.scenetemplate         text eol=lf merge=unityyamlmerge linguist-language=yaml
+*.unity                 text eol=lf merge=unityyamlmerge linguist-language=yaml
+
+# Binários
+*.png                   binary
+*.jpg                   binary
+*.wav                   binary
+*.ogg                   binary
+*.ttf                   binary
+*.dll                   binary
+
+# Fora das estatísticas do GitHub
+Packages/packages-lock.json linguist-generated

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 9824a075f4d971c67fb09fd40beb3839
+  - enabled: 1
+    path: Assets/Scenes/Suecia1958.unity
+    guid: c871c986c61cd8139e1ab35db77dc030
+  - enabled: 1
+    path: Assets/Scenes/FimDeJogo.unity
+    guid: 8a007e0a99d033e591f84e230f85d68a
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
